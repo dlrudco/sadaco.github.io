@@ -60,8 +60,10 @@ There are **three** types of filters encoded in Fraiwan:
 - Extended mode filtration (E): Amplifies sounds in the frequency range 20-1000Hz, but emphasizes the frequency sounds in the range 50-500Hz.
  
 #### Classes
+There are seven different classes in Fraiwan dataset:
+
 | Sound Type             | No. of Subjects |
-|------------            | --------------- |
+| ---------------------- | --------------- |
 | Wheezes                |  41             |
 | Normal                 |  35             |
 | Crepitations           |  23             |
