@@ -34,11 +34,11 @@ ICBHI dataset is an audio dataset containing audio samples, collected independen
    - Vocal cord problems
    - An object stuck in your voice box or windpipe
 
-#### <b>Data Count and Duration</b>
+#### Data Count and Duration
 The database consists of a total of 5.5 hours of recordings containing 6898 respiratory cycles, of which 1864 contain crackles, 886 contain wheezes, and 506 contain both crackles and wheezes, in 920 annotated audio samples from 126 subjects.
 
 ### Preparation
-#### <b>Download</b>
+#### Download
  1. First download the data from the official download [link](https://bhichallenge.med.auth.gr/sites/default/files/ICBHI_final_database/ICBHI_final_database.zip)
  2. Unzip the file under desired <span style="color:purple"><b>$DATA_PATH</b></span>.
   ```
