@@ -59,7 +59,18 @@ There are **three** types of filters encoded in Fraiwan:
 - Diaphragm mode filtration (D): Amplifies sounds in the frequency range 20-200Hz, but emphasizes the high frequency sounds in the range 100-500Hz.
 - Extended mode filtration (E): Amplifies sounds in the frequency range 20-1000Hz, but emphasizes the frequency sounds in the range 50-500Hz.
  
-#### <b>Data Count and Duration</b>
+#### Classes
+| Sound Type             | No. of Subjects |
+|:------------           |:---------------:|
+| Wheezes                |  41             |
+| Normal                 |  35             |
+| Crepitations           |  23             |
+| Crackles               |  8              |
+| Wheezes and Crackles   |  2              |
+| Bronchial and Crackles |  2              |
+| Bronchial              |  1              |
+
+#### Data Count and Duration
 This dataset includes respiratory sounds from 112 subjects, 35 of whom are healthy and the rest are not, with just one recording per person and three types of filters applied to each recording. In other words, for each subject, we have three filtered recordings. Hence, we have `112 * 3`, 336 recordings in total. For example, the file named `BP60_heart failure,Crep,P L L,83,F.wav` is a Bell filtered crepitation sound captured from the posterior left lower zone of the chest of an 83-year-old female with heart failure problem.
 
 These volunteers ranged in age from 21 to 90 years old, with 43 females and 69 males. Each recording lasts 5 to 30 seconds, which is enough time to cover at least one breathing cycle. The maximum duration is limited by the recording capabilities of the electronics stethoscope. There were no minimum duration requirements imposed on the physician examining the subjects at the annotation stage. 
