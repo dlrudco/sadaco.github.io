@@ -3,4 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title : "SADACO"
+permalink : /
 ---
+
+# Welcome to SADACO Document
+
+Here we provide overall information on our SADACO repository that might be missing from our repo README.
